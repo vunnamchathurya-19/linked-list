@@ -16,6 +16,7 @@ struct Node* createNode(int value) {
     return newNode;
 }
 
+
 // Insert into BST
 struct Node* insert(struct Node* root, int value) {
     if (root == NULL)
